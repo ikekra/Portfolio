@@ -81,7 +81,7 @@ export class MemStorage implements IStorage {
       title: "Computer Science Student",
       university: " Shivaji University , Class of 2022",
       bio: "I'm a passionate computer science student with interests in web development, AI, and mobile applications. I'm currently seeking internship opportunities to apply my skills in a professional environment.",
-      photoUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
+      photoUrl: "my pic.png",
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
