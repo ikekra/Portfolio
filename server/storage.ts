@@ -79,14 +79,15 @@ export class MemStorage implements IStorage {
       id: 1,
       name: "Vishal Raju Honde",
       title: "Computer Science Student",
-      university: " Shivaji University , Class of 2022",
+      university: "Shivaji University, Class of 2022",
       bio: "I'm a passionate computer science student with interests in web development, AI, and mobile applications. I'm currently seeking internship opportunities to apply my skills in a professional environment.",
-      photoUrl: "C:\Users\Asus\Desktop\portfolio\StudentShowcase\pics",
+      photoUrl: "/StudentShowcase/pics/1.jpg", // Publicly accessible image URL
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
       email: "vishalhonde67@gmail.com",
     };
+    
 
     this.projects = new Map();
     this.projects.set(1, {
