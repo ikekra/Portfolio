@@ -79,15 +79,14 @@ export class MemStorage implements IStorage {
       id: 1,
       name: "Vishal Raju Honde",
       title: "Computer Science Student",
-      university: "Shivaji University, Class of 2022",
+      university: " Shivaji University , Class of 2022",
       bio: "I'm a passionate computer science student with interests in web development, AI, and mobile applications. I'm currently seeking internship opportunities to apply my skills in a professional environment.",
-      photoUrl: "http://localhost:5000/uploads/1.jpg",
+      photoUrl:"https://imgur.com/nuuwrwj.png",
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
-      email: "vishalhonde67@gmail.com",
+      email: "jane.smith@example.com",
     };
-    
 
     this.projects = new Map();
     this.projects.set(1, {
@@ -97,7 +96,7 @@ export class MemStorage implements IStorage {
       imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectUrl: "https://example.com/portfolio",
-      githubUrl: "https://github.com/ikekra/portfolio",
+      githubUrl: "https://github.com/janesmith/portfolio",
     });
     
     this.projects.set(2, {
@@ -123,8 +122,8 @@ export class MemStorage implements IStorage {
     this.educations = new Map();
     this.educations.set(1, {
       id: 1,
-      degree: "Bachelor of Technology in Computer Science Engineering",
-      institution: "Bharati vidyapeeth's College of Engineering and Pharmacy,Kolhapur",
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
       dateRange: "2022 - 2026",
       gpa: "8.8/10",
       description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
@@ -133,7 +132,7 @@ export class MemStorage implements IStorage {
     this.educations.set(2, {
       id: 2,
       degree: "Higher Secondary Certificate ",
-      institution: "SMT Mathura Devi College of Secondary Education",
+      institution: "SMT Mathura Devi College",
       dateRange: "2019 - 2021",
       gpa: "83%",
       description: "Advanced courses in Computer Science, Mathematics, and Physics",
@@ -161,13 +160,13 @@ export class MemStorage implements IStorage {
     this.skills.set(4, {
       id: 4,
       category: "Soft Skills",
-      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication",""],
+      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication"],
     });
 
     this.experiences = new Map();
     this.experiences.set(1, {
       id: 1,
-      position: "Web Developer Intern",
+      position: "Software Engineering Intern",
       company: "Tech Innovations Inc.",
       dateRange: "Summer 2023",
       responsibilities: "• Developed and maintained features for the company's web application using React and Node.js\n• Collaborated with a team of 5 developers using Agile methodologies\n• Implemented responsive UI components that improved user engagement by 15%\n• Participated in code reviews and contributed to technical documentation",
@@ -186,7 +185,7 @@ export class MemStorage implements IStorage {
       id: 1,
       title: "Dean's List Scholar",
       organization: "University of Technology • 2020-2023",
-      description: "Maintained a GPA above 3.7 for six consecutive semesters, earning a place on the Dean's List.",
+      description: "Maintained a GPA above 7.5 for six consecutive semesters, earning a place on the Dean's List.",
       icon: "award",
     });
     
@@ -209,13 +208,13 @@ export class MemStorage implements IStorage {
     this.contact = {
       id: 1,
       email: "vishalhonde67@gmail.com",
-      phone: "(91) 9175318745",
-      location: "Kolhapur,India",
+      phone: "(123) 456-7890",
+      location: "San Francisco, CA",
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
       instagram: "https://instagram.com/janesmith",
-      formEmail: "jane.smith@example.com",
+      formEmail: "vishalhonde67@gmail.com",
       successMessage: "Thank you for your message! I'll get back to you soon.",
     };
 

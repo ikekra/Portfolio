@@ -25,7 +25,10 @@ const ProfileSection = ({ profile }: ProfileSectionProps) => {
   const { toast } = useToast();
 
   const profileSchema = insertProfileSchema.extend({
-    photoUrl: z.string().optional()
+    photoUrl: z.string().optional(),
+    linkedin: z.string().optional(),
+    github: z.string().optional(),
+    twitter: z.string().optional()
   });
 
   type ProfileFormValues = z.infer<typeof profileSchema>;
@@ -102,16 +105,16 @@ const ProfileSection = ({ profile }: ProfileSectionProps) => {
       {!isEditing ? (
         <div className="flex flex-col md:flex-row items-start gap-6">
           <div className="w-32 h-32 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
-            {profile?.photoUrl ? (
-              <Avatar className="w-32 h-32">
-                <AvatarImage src={profile.photoUrl} alt={profile.name} className="w-full h-full object-cover" />
-                <AvatarFallback>{profile.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
-              </Avatar>
-            ) : (
-              <div className="w-full h-full flex items-center justify-center bg-primary text-white text-3xl">
+            <Avatar className="w-32 h-32">
+              <AvatarImage 
+                src={profile?.photoUrl || ""} 
+                alt={profile?.name || "Profile"} 
+                className="w-full h-full object-cover" 
+              />
+              <AvatarFallback>
                 {profile?.name ? profile.name.split(' ').map(n => n[0]).join('') : 'JS'}
-              </div>
-            )}
+              </AvatarFallback>
+            </Avatar>
           </div>
           <div className="flex-1">
             <h3 className="text-xl font-semibold text-gray-800">{profile?.name}</h3>
@@ -153,6 +156,11 @@ const ProfileSection = ({ profile }: ProfileSectionProps) => {
                       src={form.watch("photoUrl")}
                       alt="Profile preview"
                       className="w-full h-full object-cover"
+                      onError={(e) => {
+                        // Hide the broken image and show the fallback
+                        e.currentTarget.style.display = 'none';
+                        // Don't clear the photoUrl value to allow the user to fix it
+                      }}
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center bg-primary text-white text-3xl">

@@ -30,7 +30,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get('/api/profile', async (req, res) => {
     try {
       const profile = await storage.getProfile();
-      console.log("Profile being sent:", profile); // Add this line
       res.json(profile);
     } catch (error) {
       console.error("Error fetching profile:", error);
