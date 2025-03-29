@@ -85,7 +85,7 @@ export class MemStorage implements IStorage {
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
-      email: "jane.smith@example.com",
+      email: "vishalhonde67@gmail.com",
     };
 
     this.projects = new Map();
