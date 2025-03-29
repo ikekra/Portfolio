@@ -122,8 +122,8 @@ export class MemStorage implements IStorage {
     this.educations = new Map();
     this.educations.set(1, {
       id: 1,
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
+      degree: "Bachelor of Technology in Computer Science Engineering",
+      institution: "Bharati vidyapeeth's College of Engineering and Pharmacy,Kolhapur",
       dateRange: "2022 - 2026",
       gpa: "8.8/10",
       description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
@@ -132,7 +132,7 @@ export class MemStorage implements IStorage {
     this.educations.set(2, {
       id: 2,
       degree: "Higher Secondary Certificate ",
-      institution: "SMT Mathura Devi College",
+      institution: "SMT Mathura Devi College of Secondary Education",
       dateRange: "2019 - 2021",
       gpa: "83%",
       description: "Advanced courses in Computer Science, Mathematics, and Physics",
@@ -160,13 +160,13 @@ export class MemStorage implements IStorage {
     this.skills.set(4, {
       id: 4,
       category: "Soft Skills",
-      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication"],
+      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication",""],
     });
 
     this.experiences = new Map();
     this.experiences.set(1, {
       id: 1,
-      position: "Software Engineering Intern",
+      position: "Web Developer Intern",
       company: "Tech Innovations Inc.",
       dateRange: "Summer 2023",
       responsibilities: "• Developed and maintained features for the company's web application using React and Node.js\n• Collaborated with a team of 5 developers using Agile methodologies\n• Implemented responsive UI components that improved user engagement by 15%\n• Participated in code reviews and contributed to technical documentation",
@@ -207,9 +207,9 @@ export class MemStorage implements IStorage {
 
     this.contact = {
       id: 1,
-      email: "jane.smith@example.com",
-      phone: "(123) 456-7890",
-      location: "San Francisco, CA",
+      email: "vishalhonde67@gmail.com",
+      phone: "(91) 9175318745",
+      location: "Kolhapur,India",
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
