@@ -81,7 +81,7 @@ export class MemStorage implements IStorage {
       title: "Computer Science Student",
       university: "Shivaji University, Class of 2022",
       bio: "I'm a passionate computer science student with interests in web development, AI, and mobile applications. I'm currently seeking internship opportunities to apply my skills in a professional environment.",
-      photoUrl: "/StudentShowcase/pics/1.jpg", // Publicly accessible image URL
+      photoUrl: "https://ibb.co/0pL7sQLH", // Publicly accessible image URL
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
@@ -97,7 +97,7 @@ export class MemStorage implements IStorage {
       imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectUrl: "https://example.com/portfolio",
-      githubUrl: "https://github.com/janesmith/portfolio",
+      githubUrl: "https://github.com/ikekra/portfolio",
     });
     
     this.projects.set(2, {
