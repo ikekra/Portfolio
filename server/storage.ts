@@ -77,9 +77,9 @@ export class MemStorage implements IStorage {
   constructor() {
     this.profile = {
       id: 1,
-      name: "Jane Smith",
+      name: "Vishal Raju Honde",
       title: "Computer Science Student",
-      university: "University of Technology, Class of 2024",
+      university: " Shivaji University , Class of 2022",
       bio: "I'm a passionate computer science student with interests in web development, AI, and mobile applications. I'm currently seeking internship opportunities to apply my skills in a professional environment.",
       photoUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
       linkedin: "https://linkedin.com/in/janesmith",
@@ -122,19 +122,19 @@ export class MemStorage implements IStorage {
     this.educations = new Map();
     this.educations.set(1, {
       id: 1,
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of Technology",
-      dateRange: "2020 - 2024",
-      gpa: "3.8/4.0",
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
+      dateRange: "2022 - 2026",
+      gpa: "8.8/10",
       description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
     });
     
     this.educations.set(2, {
       id: 2,
-      degree: "High School Diploma",
-      institution: "Westview High School",
-      dateRange: "2016 - 2020",
-      gpa: "4.0/4.0",
+      degree: "Higher Secondary Certificate ",
+      institution: "SMT Mathura Devi College",
+      dateRange: "2019 - 2021",
+      gpa: "83%",
       description: "Advanced courses in Computer Science, Mathematics, and Physics",
     });
 
