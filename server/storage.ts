@@ -121,10 +121,10 @@ export class MemStorage implements IStorage {
 
     this.educations = new Map();
     this.educations.set(1, {
-      id: 1,
+      id: 2,
       degree: "Bachelor of Technology in Computer Science",
       institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
-      dateRange: "2022 - present",
+      dateRange: "2022 - present ",
       gpa: "8.0/10",
       description: "Coursework: Web Development, Database Systems, Machine Learning, Operating Systems",
     });
@@ -222,10 +222,10 @@ export class MemStorage implements IStorage {
 
     this.currentIds = {
       project: 4,
-      education: 3,
+      education: 2,
       skill: 5,
       experience: 3,
-      achievement:3,
+      achievement:2,
       message: 1,
     };
   }
