@@ -191,10 +191,10 @@ export class MemStorage implements IStorage {
     
     this.achievements.set(2, {
       id: 2,
-      title: "",
-      organization: "",
-      description: "",
-      icon: "",
+      title: " Research Paper - Contaminated area Scrutinizing Rover Robot With Robotic Arm",
+      organization: "National Conference on Emerging  trends in Engineering and Technology",
+      description: "A rover robot is a mobile platform equipped with sensors like the MQ2 for smoke detection, DHT11 for humidity and temperature, and a moisture sensor. It moves on wheels and is powered by a rechargeable battery. It can be controlled remotely via Bluetooth UART or WiFi (2.5GHz/5GHz).",
+      icon: "Award",
     });
     
     this.achievements.set(3, {
@@ -225,7 +225,7 @@ export class MemStorage implements IStorage {
       education: 3,
       skill: 5,
       experience: 3,
-      achievement: 2,
+      achievement:3,
       message: 1,
     };
   }
