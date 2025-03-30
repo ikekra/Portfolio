@@ -174,7 +174,7 @@ export class MemStorage implements IStorage {
     
     this.experiences.set(2, {
       id: 2,
-      position: "web Developer",
+      position: "Web Developer",
       company: "Novanector Services Pvt Limited",
       dateRange: "2024 - Present",
       responsibilities: "• Assisted with other interns for creating websites to the company and Introduction to Programming and Data Structures courses\n• Held weekly office hours to help students with assignments and concepts\n• Graded assignments and provided constructive feedback to improve student performance\n• Created supplementary learning materials that increased student comprehension",
@@ -184,8 +184,8 @@ export class MemStorage implements IStorage {
     this.achievements.set(1, {
       id: 1,
       title: " Scholar",
-      organization: "Bharati Vidyapeeth's college of engineering and pharmacy,Kolhapur • 2022-2024",
-      description: "Maintained a GPA above 7.5 for every semesters,I managed it while maintaining a part-time job off campus.  ",
+      organization: "Bharati Vidyapeeth's college of engineering and pharmacy,Kolhapur • 2022- present",
+      description: "Maintained a GPA above 7.5 for every semester,I managed it while maintaining a part-time job off campus.  ",
       icon: "award",
     });
     
@@ -200,7 +200,7 @@ export class MemStorage implements IStorage {
     this.achievements.set(3, {
       id: 3,
       title: "AWS Certified Developer",
-      organization: "Amazon Web Services • January 2023",
+      organization: "Amazon Web Services • April 2025",
       description: "Obtained the AWS Certified Developer - Associate certification, demonstrating expertise in developing and maintaining  web applications on AWS.",
       icon: "certificate",
     });
@@ -225,7 +225,7 @@ export class MemStorage implements IStorage {
       education: 3,
       skill: 5,
       experience: 3,
-      achievement: 4,
+      achievement: 2,
       message: 1,
     };
   }
