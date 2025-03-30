@@ -85,7 +85,7 @@ export class MemStorage implements IStorage {
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
-      email: "jane.smith@example.com",
+      email: "vishalhonde@gmail.com",
     };
 
     this.projects = new Map();
@@ -96,7 +96,7 @@ export class MemStorage implements IStorage {
       imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       technologies: ["HTML", "CSS", "JavaScript"],
       projectUrl: "https://example.com/portfolio",
-      githubUrl: "https://github.com/janesmith/portfolio",
+      githubUrl: "https://github.com/ikekra/portfolio",
     });
     
     this.projects.set(2, {
@@ -106,7 +106,7 @@ export class MemStorage implements IStorage {
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       technologies: ["React Native", "Firebase", "Redux"],
       projectUrl: "https://example.com/fitness-app",
-      githubUrl: "https://github.com/janesmith/fitness-app",
+      githubUrl: "https://github.com/ikekra/fitness-app",
     });
     
     this.projects.set(3, {
@@ -132,7 +132,7 @@ export class MemStorage implements IStorage {
     this.educations.set(2, {
       id: 2,
       degree: "Higher Secondary Certificate ",
-      institution: "SMT Mathura Devi College",
+      institution: "SMT Mathura Devi College of Secondary Education",
       dateRange: "2019 - 2021",
       gpa: "8.3/10",
       description: "Completes secondary education in  Biology, Mathematics, and Physics",
