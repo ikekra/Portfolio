@@ -126,7 +126,7 @@ export class MemStorage implements IStorage {
       institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
       dateRange: "2022 - present",
       gpa: "8.0/10",
-      description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
+      description: "Coursework: Web Development, Database Systems, Machine Learning, Operating Systems",
     });
     
     this.educations.set(2, {
