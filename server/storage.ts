@@ -125,7 +125,7 @@ export class MemStorage implements IStorage {
       degree: "Bachelor of Technology in Computer Science",
       institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
       dateRange: "2022 - 2026",
-      gpa: "8.8/10",
+      gpa: "8.0/10",
       description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
     });
     
@@ -134,15 +134,15 @@ export class MemStorage implements IStorage {
       degree: "Higher Secondary Certificate ",
       institution: "SMT Mathura Devi College",
       dateRange: "2019 - 2021",
-      gpa: "83%",
-      description: "Advanced courses in Computer Science, Mathematics, and Physics",
+      gpa: "8.3/10",
+      description: "Completes secondary education in  Biology, Mathematics, and Physics",
     });
 
     this.skills = new Map();
     this.skills.set(1, {
       id: 1,
       category: "Programming Languages",
-      items: ["JavaScript", "Python", "Java", "C++", "SQL"],
+      items: ["JavaScript", "C","C#", "Java", "C++", "SQL"],
     });
     
     this.skills.set(2, {
@@ -154,13 +154,13 @@ export class MemStorage implements IStorage {
     this.skills.set(3, {
       id: 3,
       category: "Tools & Platforms",
-      items: ["Git", "Docker", "AWS", "Firebase", "Heroku"],
+      items: ["Git", "Docker", "AWS", "Firebase", "Gitlab"],
     });
     
     this.skills.set(4, {
       id: 4,
       category: "Soft Skills",
-      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication"],
+      items: ["Team Collaboration", "Problem Solving", "Time Management", "Communication",""],
     });
 
     this.experiences = new Map();
@@ -174,42 +174,42 @@ export class MemStorage implements IStorage {
     
     this.experiences.set(2, {
       id: 2,
-      position: "Teaching Assistant",
-      company: "University of Technology, Computer Science Department",
-      dateRange: "2022 - Present",
-      responsibilities: "• Assisted professors in teaching Introduction to Programming and Data Structures courses\n• Held weekly office hours to help students with assignments and concepts\n• Graded assignments and provided constructive feedback to improve student performance\n• Created supplementary learning materials that increased student comprehension",
+      position: "web Developer",
+      company: "Novanector Services Pvt Limited",
+      dateRange: "2024 - Present",
+      responsibilities: "• Assisted with other interns for creating websites to the company and Introduction to Programming and Data Structures courses\n• Held weekly office hours to help students with assignments and concepts\n• Graded assignments and provided constructive feedback to improve student performance\n• Created supplementary learning materials that increased student comprehension",
     });
 
     this.achievements = new Map();
     this.achievements.set(1, {
       id: 1,
-      title: "Dean's List Scholar",
-      organization: "University of Technology • 2020-2023",
-      description: "Maintained a GPA above 7.5 for six consecutive semesters, earning a place on the Dean's List.",
+      title: " Scholar",
+      organization: "Bharati Vidyapeeth's college of engineering and pharmacy,Kolhapur • 2022-2024",
+      description: "Maintained a GPA above 7.5 for every semesters,I managed it while maintaining a part-time job off campus.  ",
       icon: "award",
     });
     
     this.achievements.set(2, {
       id: 2,
-      title: "Hackathon Winner",
-      organization: "TechFest 2022 • October 2022",
-      description: "Led a team of 4 students to win first place in the university's annual hackathon with an innovative healthcare application.",
-      icon: "trophy",
+      title: "",
+      organization: "",
+      description: "",
+      icon: "",
     });
     
     this.achievements.set(3, {
       id: 3,
       title: "AWS Certified Developer",
       organization: "Amazon Web Services • January 2023",
-      description: "Obtained the AWS Certified Developer - Associate certification, demonstrating expertise in developing and maintaining applications on AWS.",
+      description: "Obtained the AWS Certified Developer - Associate certification, demonstrating expertise in developing and maintaining  web applications on AWS.",
       icon: "certificate",
     });
 
     this.contact = {
       id: 1,
       email: "vishalhonde67@gmail.com",
-      phone: "(123) 456-7890",
-      location: "San Francisco, CA",
+      phone: "(91) 9175318745",
+      location: "Kolhapur,India",
       linkedin: "https://linkedin.com/in/janesmith",
       github: "https://github.com/janesmith",
       twitter: "https://twitter.com/janesmith",
