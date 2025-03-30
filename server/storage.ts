@@ -116,7 +116,7 @@ export class MemStorage implements IStorage {
       imageUrl: "https://images.unsplash.com/photo-1550063873-ab792950096b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       technologies: ["Python", "TensorFlow", "Flask"],
       projectUrl: "https://example.com/image-classifier",
-      githubUrl: "https://github.com/janesmith/image-classifier",
+      githubUrl: "https://github.com/ikekra/image-classifier",
     });
 
     this.educations = new Map();
@@ -124,7 +124,7 @@ export class MemStorage implements IStorage {
       id: 1,
       degree: "Bachelor of Technology in Computer Science",
       institution: "Bharati vidyapeeth's College of Engineering and Pharmacy",
-      dateRange: "2022 - 2026",
+      dateRange: "2022 - present",
       gpa: "8.0/10",
       description: "Coursework: Data Structures & Algorithms, Web Development, Database Systems, Machine Learning, Operating Systems",
     });
@@ -135,7 +135,7 @@ export class MemStorage implements IStorage {
       institution: "SMT Mathura Devi College of Secondary Education",
       dateRange: "2019 - 2021",
       gpa: "8.3/10",
-      description: "Completes secondary education in  Biology, Mathematics, and Physics",
+      description: "Completes secondary education in Biology, Mathematics, and Physics",
     });
 
     this.skills = new Map();
@@ -210,10 +210,10 @@ export class MemStorage implements IStorage {
       email: "vishalhonde67@gmail.com",
       phone: "(91) 9175318745",
       location: "Kolhapur,India",
-      linkedin: "https://linkedin.com/in/janesmith",
-      github: "https://github.com/janesmith",
-      twitter: "https://twitter.com/janesmith",
-      instagram: "https://instagram.com/janesmith",
+      linkedin: "https://linkedin.com/in/",
+      github: "https://github.com/",
+      twitter: "https://twitter.com/",
+      instagram: "https://instagram.com/",
       formEmail: "vishalhonde67@gmail.com",
       successMessage: "Thank you for your message! I'll get back to you soon.",
     };
