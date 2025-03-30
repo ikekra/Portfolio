@@ -193,7 +193,7 @@ export class MemStorage implements IStorage {
       id: 2,
       title: " Research Paper - Contaminated area Scrutinizing Rover Robot With Robotic Arm",
       organization: "National Conference on Emerging  trends in Engineering and Technology",
-      description: "A rover robot is a mobile platform equipped with sensors like the MQ2 for smoke detection, DHT11 for humidity and temperature, and a moisture sensor. It moves on wheels and is powered by a rechargeable battery. It can be controlled remotely via Bluetooth UART or WiFi (2.5GHz/5GHz).",
+      description: "A rover robot is a mobile platform equipped with sensors like the MQ2 for smoke detection, DHT11 for humidity and temperature, and a moisture sensor. It moves on wheels and is powered by a rechargeable battery. It can be controlled remotely via Bluetooth UART or WiFi (2.5GHz/5GHz). The ESP32-CAM module enables live video streaming, while audio-visual alerts provide real-time feedback. Designed for inaccessible or hazardous areas, it aids in data collection, environmental monitoring, and scientific applications. With a robotic arm for physical tasks, it integrates electronics, mechanics, and computer science for efficient remote exploration and monitoring.",
       icon: "Award",
     });
     
